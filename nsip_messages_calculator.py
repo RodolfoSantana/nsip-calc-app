@@ -11,7 +11,7 @@ import streamlit as st
 import pandas as pd
 
 # Load Excel
-file_path = '/Users/rodolfosantana/Desktop/Team Management/OIC/NSIP_LOE.xlsx'
+file_path = 'NSIP_LOE.xlsx'
 df = pd.read_excel(file_path)
 
 # Normalize column names
